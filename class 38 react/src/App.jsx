@@ -10,8 +10,8 @@ const App = () => {
       <div className="circle"></div>
       <h2>{darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}</h2>
     <button onClick={() => setDarkMode(!darkMode)} > 
-      <img className='moon' src="../public/moon.png" alt="" />
-      <img className='sun' src="../public/sun.png" alt="" />
+      <img className='moon' src="./moon.png" alt="" />
+      <img className='sun' src="./sun.png" alt="" />
     </button>
      </div>
     </div>
